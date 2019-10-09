@@ -20,6 +20,12 @@ const useStyles = makeStyles(theme => ({
   menuButton: {
     marginRight: theme.spacing(2),
   },
+  list: {
+    width: 250,
+  },
+  fullList: {
+    width: "auto",
+  },
 }))
 
 function Header(siteTitle) {
@@ -45,7 +51,7 @@ function Header(siteTitle) {
       onClick={toggleDrawer(side, false)}
     >
       <List>
-        {["Inbox", "Starred", "Send email", "Drafts"].map((text, index) => (
+        {["Home", "About", "Contact"].map((text, index) => (
           <ListItem button key={text}>
             <ListItemIcon>
               {index % 2 === 0 ? <Icon>inbox</Icon> : <Icon>mail</Icon>}
