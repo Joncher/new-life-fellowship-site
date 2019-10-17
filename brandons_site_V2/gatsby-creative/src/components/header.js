@@ -88,9 +88,7 @@ export default class Header extends React.Component {
               </div>
               <div className="col-lg-8 align-self-baseline">
                 <p className="text-white-75 font-weight-light mb-5">
-                  Start Bootstrap can help you build better websites using the
-                  Bootstrap framework! Just download a theme and start
-                  customizing, no strings attached!
+                  Here for any of your car vinyl needs.
                 </p>
                 <a
                   className="btn btn-primary btn-xl js-scroll-trigger"
