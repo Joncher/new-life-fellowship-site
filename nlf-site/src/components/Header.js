@@ -1,11 +1,14 @@
 import React from "react";
+import "./Header.css";
 
-function Home() {
+import bkgdPic from "../assets/elkbuildingfront.jpg";
+
+function Header() {
   return (
-    <div className="Home">
-      <div>this is a header</div>
+    <div className="Header">
+      <img src={bkgdPic} />
     </div>
   );
 }
 
-export default Home;
+export default Header;
